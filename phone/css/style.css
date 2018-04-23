@@ -46,14 +46,20 @@ header a{
 	font-family: "宋体";
 	font-size: 1.05rem;
 	color: #fff;
+	line-height:3.3rem;
 }
 .wj{
 	font-family: "宋体";
 	font-size: 1.05rem;
-	color: #fff;
-	
+	color: #fff;	
 }
-
+.iconfont{
+	width: 1.525rem;
+	height:1.4rem;
+}
+.tt{
+	color: #70737A;
+}
 
 
 
