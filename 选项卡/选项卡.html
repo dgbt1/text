@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="jquery-ui.css">
+    <script src="jquery-1.12.4.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script>
+        $(function(){
+            $("#tabs").tabs();
+        });
+    </script>
+    <style>
+    #tabs-1 p{
+        color:green;
+    }
+    div{
+        width:500px;
+    }
+
+    </style>
+</head>
+<body>
+<div id='tabs'>
+    <ul>
+        <li><a href="#tabs-1">1111</a></li>
+        <li><a href="#tabs-2">22222222</a></li>
+        <li><a href="#tabs-3">33333</a></li>
+    </ul>
+ <div id="tabs-1">
+    <p>1111111111111</p>
+  </div>
+   <div id="tabs-2">
+    <p>22222222222222</p>
+  </div>
+   <div id="tabs-3">
+    <p>333333333</p>
+  </div>
+
+</div>
+</body>
+</html>
