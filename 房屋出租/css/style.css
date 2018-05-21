@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+.headd{
+	width: 100%;
+	height: 41px;
+	background-color: #292C33;
+}
+.headd ul{
+	display: flex;
+}
+
+.headd li{
+	flex: 1;
+	color: #616878;
+	line-height: 41px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.tuddd img{
+	margin-top: 12px;
+	margin-right: 95px;
+	margin-bottom: 10px;
+	float: left;
+}
+.tuddd ul{
+	
+	width: 935px;
+	height: 76px;
+	float: left;
+	
+}
+.tuddd li{
+	
+	color: #42556F;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	line-height: 76px;
+	float: left;
+	margin-right: 37px;	
+}
+.tuddd .serty{
+	margin-right: 0px;	
+	
+}
+.dagdsa{
+	width: 100%;
+	height: 4px;
+	background-color: #FAFAFA;
+	border-top: 2px solid #EAEAEA;
+
+	
+}
+.gfdaee{
+	width: 1200px;
+	height: 518px;
+	background: url(../img/banerrrr.png) no-repeat;
+	padding-top: 199px;
+	box-sizing: border-box;
+	
+}
+.dsafwww{
+	width: 847px;
+	height: 94px;	
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 22px;
+	box-sizing: border-box;
+	
+	
+}
+.fsdagsd{
+	width: 847px;
+	height: 94px;
+	border: 2px solid #000;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+	margin-left: 175px;
+}
+.dagdaee{
+	width: 120px;
+	height: 50px;
+	background: url(../img/jiantou.png) no-repeat 89px 22px;
+	background-color: #fff;
+	margin-left: 22px;
+	margin-right: 2px;
+	float: left;
+	margin-bottom: 30px;
+}
+.fdhsfd{
+	margin-left: 0;
+}
+.dagdaee p{
+	line-height: 50px;
+	margin-left: 22px;
+}
+.gfdsgf{
+	width: 200px;
+}
+.dsagds{
+	
+	background: 0;
+	background-color: #6EB92B;
+	text-align: center;
+}
+.dsagds p{
+	margin-left: 0;
+}
+.dsageeee{
+	width: 250px;
+	height: 94px;
+	
+	margin-left: 0;
+	
+}
+.dssew{
+	width: 120px;
+	height: 42px;
+	background-color: #E6EBCA;
+	float: left;
+	
+}
+.fdasgfdsa{
+	margin-right: 10px;
+}
+.fsgfdww{
+	margin-bottom:10px ;
+}
+.dsageeee p{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	line-height: 42px;
+	
+}
+.gfrtre{
+	background-color: #C5DCF6;
+}
+.rfstrewww{
+	background-color:#D8EFCA;
+}
+.rerewww{
+	background-color:#FFCBCA;
+}
+.fdshee{
+	width: 250px;
+	height: 580px;
+	
+	margin-top: 30px;
+}
+.dsagyre{
+	width: 250px;
+	height: 25px;
+	border-bottom:1px solid  #E4E4E4;
+	margin-bottom: 16px;
+}
+.hgutrttt{
+	width: 117px;
+	height: 25px;
+	border-bottom:1px solid  #19A15F;
+}
+.hgutrttt h1{
+	margin-top: 0;
+	text-align: center;
+	font-size: 18px;
+	color: #6EB92B;
+	
+}
+.dsewewq li{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #000;
+	line-height: 29px;
+}
+.dsewewq{
+	width: 250px;
+	height: 532px;
+}
+.tsfdghfd{
+	margin-top: 6px;
+}
+.ziodddd{
+	width: 930px;
+	height: 1200px;
+	float: right;
+	margin-top: 30px;
+	
+	
+}
+.sgdfsww{
+	float: left;
+	margin-top: 30px;
+	
+}
+.dsaswww{
+	width: 930px;
+	height: 55px;
+	background-color: #FDFEFD;
+}
+.dsaswww li {
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000000;
+	margin-top: 28px;
+}
+.dsawwws{
+	margin-left: 20px;
+	margin-right: 86px;
+}
+.daswwqq{
+	margin-right: 89px;
+	}
+.daewass{
+	margin-right: 261px;
+}
+.fdseweww{
+	margin-right: 161px;
+}
+.wetssssf{
+	width: 930px;
+	height: 40px;
+	border-bottom: 1px solid #EEEEEE;
+}
+.wetssssf li {
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #7A7E81;
+	line-height: 40px;
+}
+.dasfeeeqw{
+	margin-right: 70px;
+}
+.dwwasa{
+	margin-right: 158px;
+}
+.dweedpp{
+	margin-right: 142px;
+}
+.dgppp{
+	margin-left: 20px;
+	margin-right: 93px;
+}
+.huuoo{
+	width: 345px;
+	height: 32px;
+	
+	float: right;
+	margin-top: 20px;
+	margin-right: 293px;
+}
+.huuoo p{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #B3B3B3;
+	line-height:32px;
+	margin-right: 15px;
+	float: left;
+}
+.aerdg{
+	float: left;
+	width: 219px;
+	height: 32px;
+}
+.huuoo li{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #E8E8E9;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	color: #B3B3B3;
+}
+.huuoo .fdsgew{
+	border-right: 0;
+}
+.huuoo .daeee{
+	color: #000;
+}
+
+
+
+
+
+.zuihou{
+	width: 100%;
+	height: 500px;
+	background-color: #FAFAFA;
+}
+
+.box2{
+	width: 100%;
+	height: 501px;
+	border-top: 1px solid #FAFAFA;
+	float: left;
+	padding-top: 45px;
+	box-sizing: border-box;
+	
+}
+
+.box2 .p2{
+	text-align: center;
+	color: #838383;
+	font-size: 12px;
+	
+}
+.box2 p a{
+	color: #838383;
+	font-size: 12px;
+}
+.box2 p i{
+	font-style: normal;
+	font-size: 12px;
+	color: #838383;
+	margin: 0 4px;
+}
+.mb1{
+	margin-bottom: 17px;
+}
+.dasfds{
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #E5E5E5;
+	background-color: #fff;
+}
