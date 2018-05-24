@@ -1,0 +1,391 @@
+@charset "utf-8";
+.header{
+	width: 100%;
+	height: 103px;
+}
+.logo img{
+	margin-top: 27px;
+	margin-bottom: 19px;
+}
+.nav{
+	background-color: #FB4E7E;
+	width: 100%;
+	height: 44px;
+	margin-bottom: 13px;
+	
+}
+.nav ul{
+	display: flex;
+}
+.nav li{
+	flex:1;
+	line-height: 44px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #fff;
+}
+.bannerrr{
+	width: 1200px;
+	height: 580px;	
+}
+
+.lunbo {
+	margin-left: 0;
+		width: 910px;
+		height: 580px;
+		position: relative;
+		overflow: hidden;
+		float: left;
+	}
+	.imgs {
+		position: absolute;
+		top: 0;
+	}
+	.imgs li {
+		float: left;
+		width: 910px;
+		height: 580px;
+	}
+	.btns {
+		position: absolute;
+		width: 100%;
+		bottom: 10px;
+		text-align: center;
+		margin-bottom: 48px;
+		margin-left: -348px;
+	}
+	.btns li {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color:#FB4E7E;		
+		margin: 0 2px;
+		cursor: pointer;
+		margin-left: 8px;
+	}
+	.btns .active {
+		background: #fff;
+	}
+	.prev,.next {
+		position: absolute;
+		top: 185px;
+		width: 50px;
+		height: 100px;
+		font-size: 48px;
+		color: #fff;
+		text-align: center;
+		line-height: 100px;
+		background: rgba(0,0,0,.5);
+		opacity: 0;
+	}
+	.prev {
+		left: 0;
+	}
+	.next {
+		right: 0;
+	}
+.bannerrr_right{
+	width: 268px;
+	height: 558px;
+	border: 1px solid #EFEFEF;
+	float: left;
+	margin-left: 20px;
+}
+
+.bannerrr_right .bannerrr_right_one{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #FB4E7E;
+	font-weight: bold;
+	margin-top: 15px;
+	display: inline-block;
+	margin-right: 107px;
+	margin-bottom: 18px;
+}
+.bannerrr_right li{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 9px;
+	margin-left: 15px;
+}
+.bannerrr_right .botz{
+	margin-bottom: 0;
+}
+.WeddingCompany{
+	width: 1200px;
+	height: 261px;
+	margin-top: 22px;
+	margin-bottom: 44px;
+}
+.WeddingCompany_texe{
+	width:117px;
+	height: 24px;
+	border-left: 3px solid #FB4E7E;
+}
+.WeddingCompany_texe p{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color:#FB4E7E ;
+	font-weight: bold;
+	text-indent: 20px;
+	line-height: 26px;
+	
+}
+.logo_f{
+	width: 1200px;
+	height: 216px;
+	margin-top: 21px;
+}
+.logo_f img{
+	border: 2px solid #FDB3C7;
+	vertical-align: middle;
+	vertical-align: ;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.logo_f .rightzz{
+	margin-right:0;
+}
+.logo_f .botzzz{
+	margin-bottom:0;
+}
+.WeddingPhotography{
+	width: 1200px;
+	height: 834px;
+	
+	margin-bottom: 42px;
+}
+.WeddingPhotography_one{
+	width: 556px;
+	height: 396px;
+	
+	float: left;
+	margin-right: 88px;
+	margin-bottom: 42px;
+}
+.rightp{
+	margin-right: 0px;
+}
+.bottomsss{
+	margin-bottom: 0px;
+}
+.WeddingPhotography_pk{
+	width: 232px;
+	height: 351px;
+	margin-top: 19px;
+	margin-right: 20px;
+	float: left;
+}
+.WeddingPhotography_right{
+	width: 304px;
+	height: 349px;
+	float: left;
+	margin-top: 19px;
+}
+.title_one{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #FB4E7E;
+	text-align: center;
+	margin-bottom: 13px;
+}
+.title_two{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #000;
+	line-height: 21px;
+	margin-bottom: 13px;
+}
+.title_san{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 9px;
+}
+.botxxx{
+	margin-bottom: 17px;
+}
+.WeddingPhotography_right_bot p{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#8F8F8F;
+	text-align: center;
+	
+}
+.WeddingPhotography_right_bot img{
+	margin-right: 20px;
+}
+.WeddingPhotography_right_bot .rightpp{
+	margin-right: 0;
+}
+.WeddingPhotography_right_bot li{
+	float: left;
+}
+.WeddingPhotographyGallery{
+	width: 1200px;
+	height: 625px;
+	margin-bottom: 42px;
+}
+.WeddingPhotographyGallery_right{
+	width: 909px;
+	height: 625px;
+	margin-right: 20px;
+	float: left;
+}
+.WeddingPhotographyGallery_bot{
+	width: 909px;
+	height: 580px;
+	margin-top: 19px;
+	
+}
+.WeddingPhotographyGallery_bot img{
+	float: left;
+	vertical-align: middle;
+	margin-right: 20px;
+	margin-bottom: 22px;
+}
+.WeddingPhotographyGallery_bot .maeeee{
+	margin-right: 0;
+}
+.WeddingPhotographyGallery_bot .suooddd{
+	margin-bottom: 0;
+}
+.rental{
+	width: 271px;
+	height: 580px;
+	float: left;
+	margin-top: 44px;
+}
+.rental_top{
+	width: 271px;
+	height: 278px;
+}
+
+
+
+.rental_top{
+	width: 271px;
+	height: 32px;
+	border-bottom: 2px solid #E4E4E4;
+	margin-bottom: 17px;
+}
+.rental_top_one{
+	width: 120px;
+	height: 32px;
+	border-bottom: 2px solid #FB4E7E;
+	float: left;
+}
+.rental_top_two{
+	width: 28px;
+	height: 32px;	
+	float: left;
+	margin-bottom: 12px;
+}
+.rental_top_one h1{
+	font-family: "微软雅黑";
+	font-size: 25px;
+	color: #FB4E7E;
+	text-indent: 3px;
+	line-height: 23px;
+	
+}
+.rental_top_two{
+	float: right;	
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #646464;
+}
+.rental_top_twotwo li{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 12px;
+}
+.rental_top_one .mayoudd{
+	margin-top:  3px;
+}
+.Happymoments{
+	width: 1200px;
+	height: 767px;
+	margin-bottom: 70px;
+}
+.Happymoments_one{
+	width: 1200px;
+	height: 721px;
+	margin-top: 20px;
+}
+.Happymoments_one_left{
+	width: 374px;
+	height: 721px;
+	margin-right: 17px;
+	float: left;
+}
+.Happymoments_one_right{
+	width: 808px;
+	height: 721px;
+	float: left;
+}
+.Happymoments_one img{
+	vertical-align: middle;
+}
+.masbot{
+	margin-bottom: 19px;
+}
+.Happymoments_one_right img{
+	float: left;
+}
+.disaettt{
+	margin-right: 16px;
+}
+.dswwww{
+	margin-bottom: 17px;
+}
+.dsewww{
+	margin-left: 2px;
+}
+
+
+.footer{
+	width: 100%;
+	height: 500px;
+	background-color: #FAFAFA;
+}
+
+.box2{
+	width: 100%;
+	height: 501px;
+	border-top: 1px solid #FAFAFA;
+	float: left;
+	padding-top: 45px;
+	box-sizing: border-box;
+	
+}
+
+.box2 .p2{
+	text-align: center;
+	color: #838383;
+	font-size: 12px;
+	
+}
+.box2 p a{
+	color: #838383;
+	font-size: 12px;
+}
+.box2 p i{
+	font-style: normal;
+	font-size: 12px;
+	color: #838383;
+	margin: 0 4px;
+}
+.mb1{
+	margin-bottom: 17px;
+}
+.dasfds{
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #E5E5E5;
+	background-color: #fff;
+}
