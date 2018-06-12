@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+.setup_one{
+	width: 1000px;
+	height: 810px;
+	float: left;
+}
+.setup_top{
+	width: 1000px;
+	height: 58px;
+	border-bottom: 1px solid #E8E8E8;
+	margin-bottom: 15px;
+}
+.setup_top p{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #000000;
+	line-height: 58px;
+}
+.tabs{
+	width: 1000px;
+	height: 735px;
+}
+.tabs .tabs_left{
+	width: 190px;
+	height: 735px;
+	background-color: #EFEFEF;
+	float: left;
+}
+.tabs .tabs_left li{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #000;
+}
+.tabs .tabs_left .iconfont{
+	margin-left: 54px;
+	margin-right: 5px;	
+}
+.tabs .tabs_left li:nth-child(1){
+	margin-top: 20px;
+}
+.tabs .tabs_left li{
+	margin-bottom: 40px;
+}
+.tabs .tabs_left .dayu{
+	font-size:18px;
+	font-family: "微软雅黑";
+	margin-left: 16px;
+}
+.content{
+	width: 808px;
+	height: 735px;
+	float: left;
+}
+.content_one{
+	width: 770px;
+	height: 72px;
+	border-bottom: 1px solid #F5F5F5;
+	margin-left: 37px;
+	margin-bottom: 4px;
+}
+.content_one ul li{
+	float: left;
+	line-height:72px;
+}
+.content_one ul li:nth-child(1){
+	width: 61px;
+	height: 12px;
+	text-indent: 13px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color:#000;
+	margin-right: 186px;
+}
+.content_one ul li:nth-child(2){
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color:#999999;
+}
+.content_one ul li:nth-child(3){
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color:#000;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.content_one ul li:nth-child(4){
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color:#999999;
+}
+.content_one ul li:nth-child(5){
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color:#999999;
+	margin-right: 244px;
+}
+.content_one ul li:nth-child(6){
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color:#00AAEE;
+}
+.content .content_one .woyi{
+	margin-left: 296px;
+}
+.content .content_one .woer{
+	margin-left: 319px;
+}
+.content .content_one .wosan{
+	margin-left: 364px;
+}
+.content .content_one .wosi{
+	margin-left: 246px;
+}
+.content .content_one .wowu{
+	margin-left: 160px;
+}
+.content .content_one .woliu{
+	margin-left: 325px;
+}
+.content .content_one .woqi{
+	margin-left: 289px;
+}
+.content .content_one .woba{
+	margin-left: 276px;
+}
+.contents{
+	width:770px;
+	height: 497px;
+	float: left;
+	margin-top: 32px;
+	margin-left: 23px;
+}
+.contents_one{
+	width: 770px;
+	height: 74px;
+	margin-bottom: 23px;
+}
+.contents_one img{
+	float: left;
+}
+.contents_one p{
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	margin-left: 20px;
+	margin-top: 21px;
+	color: #000000;
+}
+.contents_two{
+	width: 770px;
+	height: 79px;
+	border-bottom: 1px solid #EDEDED;
+}
+.contents_two ul li{
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #000000;
+	line-height: 79px;
+}
+.contents_two ul li:nth-child(1){
+	margin-left: 22px;
+}
+.contents_two ul li:nth-child(2){
+	margin-left: 10px;
+	color: #0088CC;
+	margin-right: 147px;
+}
+.contents_two ul li:nth-child(3){
+	color: #999999;
+	margin-right: 333px;
+}
+.contents .contents_two ul .woqw{
+	margin-right: 225px;
+}
+.contents .contents_two ul .yie{
+	margin-right: 0;
+	margin-left: 162px;
+}
+.contents .contents_two ul .eii{
+	margin-right:150px;
+	margin-left: 146px;
+}
+.contents .contents_two ul .werr{
+	margin-right:283px;
+	margin-left: 146px;
+	color:#999999 ;
+}
+.contents .contents_two ul .erwww{
+	margin-right:0px;
+}
+.contents .contents_two ul .swaaa{
+	margin-right:40px;
+	margin-left: 179px;
+	color: #999999;
+}
+.contents .contents_two ul .ewwsd{
+	margin-right:25px;
+	margin-left: 86px;
+}
+.contents .contents_two ul .werrq{
+	margin-right:0px;
+	margin-left: 0px;
+}
+.contents a{
+	color: #999999;
+}
+.contents .contents_two ul .yansud a{
+	color: #00AAEE;
+}
+.contents .contents_two ul .eii span{
+	color: red;
+}
+
+.tabs .contents .content{
+	display: none;
+}
+.tabs .contents .show{
+	display: block;
+}
+.content .last{
+	margin-left: 188px;
+	margin-top: 131px;
+}
+.seeee{
+	margin-top: 0;
+	margin-left: 0;
+}
+.deewww{
+	margin-top: 32px;
+	margin-left: 23px;
+}
+.tabs .contents .content .content_one ul .ytansss a{
+	color:#0098DC;
+}
+.setup{
+	padding-bottom: 3px;
+}

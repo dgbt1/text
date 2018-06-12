@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>曹操快跑-学生账户-电子超市</title>
+		<meta name="viewport" content="initial-scale=`${window.devicePixelRatio}`">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common_merchant_student.css"/>
+		<link rel="stylesheet" type="text/css" href="css/coles_student.css"/>
+		<link rel="stylesheet" type="text/css" href="css/search-form.css"/>
+		<link rel="stylesheet" type="text/css" href="css/search.css">
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="font/shopping.css"/>
+	</head>
+	<body>
+		<div class="header gWidth">
+			<div class="header_one">
+				<a href=""><img src="img/logo.png"/></a>			
+			</div>
+			<div class="header_toe">
+				<p>学生</p>								
+			</div>
+			<ul >
+				<li><a href="index_merchant_student.html">登录</a></li>
+				<li class="header_t">-</li>
+				<li><a href="register-student.html">注册</a></li>
+				<li class="header_r">|</li>
+				<li><a href="index_team.html">提建议</a></li>
+				<li class="header_r">|</li>
+				<li class="shubiao">更多
+					<ul class="header_two">
+						<li><span class="iconfont">&#xe679;</span><a href="index_team.html">关于我们</a></li>
+						<li><span class="iconfont">&#xe6a9;</span><a href="index_team.html">团队简介</a></li>
+						<li><span class="iconfont">&#xe612;</span><a href="index_team.html">联系我们</a></li>
+					</ul>
+				</li>
+				<li class="header_e"><a href=""><img src="img/jiao.png"/></a></li>
+			</ul>
+		</div>
+		<div class="nav">
+			<ul class="nav_one gWidth">
+				<li><a href="index_student.html">首页</a></li>
+				<li><a href="set_up_student.html">账户设置</a></li>
+				<li><a href="drive_to_student.html">曹操驾到</a></li>
+				<li><a href="post_student.html">寻找曹操</a></li>
+				<li class="nav_one_one"><a href="coles_student.html" class="nav_one_two">电子超市</a></li>
+				<li><a href="student_message.html">兼职信息</a></li>
+				<li><a href="ratingscore_student.html">信誉积分</a></li>
+			</ul>
+		<form onsubmit="submitFn(this, event);">
+		<div class="search-wrapper">
+			<div class="input-holder">
+				<input type="text" class="search-input" placeholder="输入关键字,如:密码" />
+				<button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+			</div>
+			<span class="close" onclick="searchToggle(this, event);"></span>
+		</div>
+	</form>	
+		</div>
+		<div class="coles_setting clearfix">
+		<div class="coles gWidth">
+			<div class="coles_nav clearfix">
+				<ul class="clearfix">
+					<li data-to="go1">零食类</li>
+					<li data-to="go2">烟酒类</li>
+					<li data-to="go3">饮料类</li>
+					<li data-to="go4">水果类</li>
+					<li data-to="go5">文具类</li>
+					<li data-to="go6">日用品类</li>
+				</ul>
+			</div>
+			<div class="coles_text clearfix">
+				<p class="clearfix" id="go1">零食类</p>
+				<ul class="clearfix">
+					<li><img src="img/foodstuff_1.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_1.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_1.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_1.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_1.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_1.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_2.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_2.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_2.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_2.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_2.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/foodstuff_2.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+				</ul>
+				
+				<p class="clearfix" id="go2">烟酒类</p>
+				<ul class="clearfix">
+					<li><img src="img/drinks_1.png"/>4元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/drinks_1.png"/>4元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/drinks_1.png"/>4元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/drinks_2.png"/>4元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/drinks_2.png"/>4元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/drinks_2.png"/>4元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/smoke_1.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/smoke_2.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/smoke_3.jpg"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/smoke_4.jpg"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/smoke_5.png"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/smoke_6.jpg"/>2元/包</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+				</ul>
+				
+				<p class="clearfix" id="go3">饮料类</p>
+				<ul class="clearfix">
+					<li><img src="img/beverages_1.jpg"/>2.5元/瓶</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_2.jpg"/>5元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_3.png"/>2元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_4.jpg"/>2.5元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_5.png"/>2.5元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_6.png"/>5元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_1.jpg"/>2.5元/瓶</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_2.jpg"/>5元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_3.png"/>2元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_4.jpg"/>2.5元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_5.png"/>2.5元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/beverages_6.png"/>5元/灌</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+				</ul>
+				
+				<p class="clearfix" id="go4">水果类</p>
+				<ul class="clearfix">
+					<li><img src="img/fruits_1.jpg"/>1.3元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_2.jpg"/>6元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_3.jpg"/>5元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_4.jpg"/>3元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_5.jpg"/>25元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_6.jpg"/>12元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_1.jpg"/>1.3元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_2.jpg"/>6元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_3.jpg"/>5元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_4.jpg"/>3元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_5.jpg"/>25元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/fruits_6.jpg"/>12元/斤</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+				</ul>
+				
+				<p class="clearfix" id="go5">文具类</p>
+				<ul class="clearfix">
+					<li><img src="img/stationery_1.png"/>3元/个</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_2.png"/>2元/支</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_3.png"/>2元/支</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_4.png"/>1元/卷</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_5.png"/>4元/个</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_6.png"/>6元/个</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_1.png"/>3元/个</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_2.png"/>2元/支</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_3.png"/>2元/支</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_4.png"/>1元/卷</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_5.png"/>4元/个</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/stationery_6.png"/>6元/个</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+				</ul>
+				
+				<p class="clearfix" id="go6">日用品类</p>
+				<ul class="clearfix">
+					<li><img src="img/commodity_1.jpg"/>5元/条</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_2.jpg"/>6元/支</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_3.jpg"/>15元/瓶</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_4.jpg"/>15元/支</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_5.jpg"/>5元/块</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_6.jpg"/>10元/瓶</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_1.jpg"/>5元/条</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_2.jpg"/>6元/支</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_3.jpg"/>15元/瓶</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_4.jpg"/>15元/支</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_5.jpg"/>5元/块</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+					<li><img src="img/commodity_6.jpg"/>10元/瓶</br><span>加入购物车<i class="iconfont">&#xe61a;</i></span></li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		<div class="buy">
+			<p>立即下单</p>
+		</div>
+		<div class="orders">
+			<h1>请确定您的订单</h1>
+			<p><i>物品详情:</i>红塔山1盒、雪碧瓶、辣条1包</p>
+			<p><i>姓名:</i>李四</p>
+			<p><i>手机号:</i>166666666666</p>
+			<p><i>物品大小:</i>100g</p>
+			<p><i>取货地址:</i>食堂一楼</p>
+			<p><i>送货地址:</i>9公寓105</p>
+			<p><i>商品金额</i>13元</p>
+			<p><i>赏金金额:</i>1元</p>
+			<p><i>总共金融</i>14元</p>
+			<input class="confirm" type="button" name="" id="" value="确定支付" />
+			<input class="cancel" type="button" name="" id="" value="取消" />
+		</div>
+		
+		<div class="orders">
+			<h1>选择支付方式</h1>
+			<img src="img/zf_1.gif"/>
+			<img src="img/zf_2.gif"/>
+			<input class="confirm" type="button" name="" id="" value="确定" />
+			<input class="cancel" type="button" name="" id="" value="取消" />
+		</div>
+		
+		<div class="orders">
+			<div class="orders_class">
+				<p>完成付款</p>
+			</div>
+			<input  onclick="window.location.reload('colex_student.html')" class="fulfill" type="button" name="" id="" value="完成" />
+		</div>
+		<div class="button clearfix">
+	<div class="button_text gwidth">
+	<p>尊重网上道德，遵守《全国人大常委会维护互联网安全的决定》及中华人民共和国其他各项有关法律法规</p>
+	<p>Copyright 2005-2014 echang.cn All rights reserverd.曹操快跑版权所有</p>
+	<p>经营许可编号：*********** 京ICP备：************ BBS经营许可证：*****************</p>
+	<p>电话：*********** 客服QQ：********* 京公网安备：**********</p>
+	</div>
+	</div>
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jss_merchant.js"></script>
+	<script src="js/index_merchant.js"></script>
+	<script src="js/coles_student.js"></script>
+</html>

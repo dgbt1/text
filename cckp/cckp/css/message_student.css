@@ -1,0 +1,131 @@
+.trading_record{
+	padding-bottom: 3px;
+	padding-top: 30px;
+	background-color: #D8DDE6;
+}
+.trading_record p{
+	display: inline-block;
+	margin-top: 1px;
+	margin-left: 1px;
+	width: 106px;
+	height: 36px;
+	text-align: center;
+	background-color: #E3E3E3;
+	color: #000000;
+	font-size: 12px;
+	line-height: 36px;
+}
+.trading_record .nav_trading{
+	height: 40px;
+	background-color: #F5F5F5;
+}
+.trading_record .trading_text{
+	background-color: #FFFFFF;
+	border-left: 1px solid #A0A0A0;
+	border-bottom: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+}
+.trading_record .title{
+	cursor: pointer;
+	background-color: #FFFFFF;
+	padding-left: 130px;
+	height: 40px;
+	border-bottom: 1px solid #CECDCD;
+}
+.trading_record .title li{
+	font-size: 12px;
+	line-height: 40px;
+	float: left;
+	color: #0089CD;
+}
+.trading_record .title li i{
+	color: #000000;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-style: normal;
+}
+.trading_record .title .li_show{
+	color: #000000;
+}
+
+.trading_record .content{
+	height: 72px;
+	padding-left: 130px;
+	border-bottom: 1px solid #CECDCD;
+}
+.trading_record .content_top{
+	height: 36px;
+	padding-left: 130px;
+	border-bottom: 1px solid #CECDCD;
+}
+.trading_record .content_top li{
+	width: 133px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 36px;
+	float: left;
+	color: #000000;
+}
+.trading_record .content li{
+	width: 133px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 36px;
+	float: left;
+	color: #000000;
+}
+.trading_record .content li:nth-child(8){
+	line-height: 72px;
+}
+.trading_record .trading_text .title_content{
+	display: none;
+}
+.trading_record .trading_text .show{
+	display: block;
+}
+.title_content .particulars_show{
+	border-radius: 4px;
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin-top: -250px;
+	margin-right: -250px;
+	width: 500px;
+	height: 500px;
+	background: rgba(0,0,0,.8);
+	color: #000000;
+}
+.title_content .particulars_show h1{
+	color: #FFFFFF;
+	margin-top: 50px;
+	height: 40px;
+	font-size: 28px;
+	line-height: 40px;
+	text-align: center;
+}
+.title_content .particulars_show p{
+	text-align: left;
+	margin-left: 190px;
+	width: 247px;
+	color: #FFFFFF;
+	margin-top: 15px;
+	font-size: 12px;
+	background: rgba(0,0,0,.0);
+}
+.title_content .particulars_show p b{
+	margin-right: 10px;
+	font-style: inherit;
+}
+.title_content .particulars_show input{
+	
+	width: 100px;
+	height: 50px;
+	line-height: 25px;
+	background: #DCDCDC;
+	border: 1px solid #A7A7A7;
+	position: absolute;
+	left: 200px;
+	bottom: 30px;
+	box-shadow:0px 0 0px #A7A7A7;
+}

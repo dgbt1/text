@@ -1,0 +1,331 @@
+.title{
+	background-color: #D8DDE6;
+	padding-top: 14px;
+	margin-top: -2px;
+}
+.title_text{
+	margin-left: auto;
+	margin-right: auto;
+	height: 132px;
+	width: 1198px;
+	border: 1px solid #A0A0A0;
+	background-color: #FFFFFF;
+}
+.title .title_text .text_outer{
+	float: left;
+	position: relative;
+	width: 774px;
+	height: 132px;
+	border-right: 1px solid #A0A0A0;
+}
+.title .title_text .text_outer .text_inner {
+	position: absolute;
+	top: 32px;
+	left: 136px;
+	font-size: 12px;
+}
+.title .title_text .text_outer .text_inner h6{
+	color: #000;
+	float: left;
+	margin-right: 8px;
+}
+.title .title_text .text_outer .text_inner i{
+	cursor: pointer;
+	float: left;
+	font-style: normal;
+	color: #30AAD8;
+}
+.title .title_text .text_outer .text_inner p{
+	cursor: pointer;
+	margin-top: 16px;
+	margin-left: 5px;
+	margin-right: 20px;
+	float: left;
+	color: #000000;
+}
+.title .title_text .text_outer .text_inner input{
+	background-color: #D8DDE6;
+	cursor: pointer;
+	float: left;
+	width: 46px;
+	height: 22px;
+	border: 1px solid #898989;
+	margin-top: 16px;
+	margin-right: 6px;
+}
+.title .title_text .text_account{
+	float: left;
+	width: 423px;
+	height: 59px;
+	border-bottom: 1px solid #898989;
+}
+.title .title_text .text_account p{
+	color: #000000;
+	margin-left: 26px;
+	margin-top: 32px;
+	font-size: 12px;
+	float: left;
+}
+.title .title_text .text_account a{
+	margin-right: 18px;
+	margin-top: 32px;
+	float: right;
+	font-size: 12px;
+	color: #02B6FE;
+}
+.title .title_text .text_bank{
+	position: relative;
+	float: left;
+	height: 72px;
+	width: 423px;
+	color: #000000;
+	font-size: 12px;
+}
+.title .title_text .text_bank span i{
+	display: inline-block;
+	margin-top: 44px;
+	font-style: normal;
+	margin-left: 12px;
+	font-size: 12px;
+}
+.title .title_text .text_bank>a{
+	margin-right: 35px;
+	margin-top: 44px;
+	float: right;
+}
+.text_bank .manage{
+	display: none;
+	right: 0;
+	position: absolute;
+	width: 258px;
+	background:#D2D2D2;
+}
+.text_bank .manage ul{
+	height: 50px;
+	border-bottom: 1px solid #000000;
+}
+.text_bank .manage ul li{
+	margin-left: 22px;
+	margin-top: 12px;
+}
+.text_bank .manage ul li a{
+	margin-left: 25px;
+}
+.text_bank .manage ul .li1{
+	line-height: 50px;
+}
+.withdraw,.recharge{
+	border-radius: 4px;
+	display: none;
+	color: #000000;
+	width: 640px;
+	height: 500px;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -182px;
+	margin-left: -320px;
+}
+.recharge img{
+	margin-top: 20px;
+	margin-left: 75px;
+}
+.withdraw .withdraw_class,.recharge .recharge_class{
+	margin-top: 198px;
+	width: 347px;
+	height: 64px;
+	background: url(../img/cg_1.gif) no-repeat left;
+	margin-left: 140px;
+}
+.withdraw .withdraw_class p,.recharge .recharge_class p{
+	font-size: 58px;
+	line-height: 64px;
+	margin-left: 115px;
+}
+
+.withdraw h1,.recharge h1{
+	text-align: center;
+	margin-top: 40px;
+}
+.withdraw p input,.recharge p input{
+	margin-left: 34px;
+	width: 280px;
+	height: 40px;
+	background-color: #DCDCDC;
+}
+
+
+.withdraw .anniu,.recharge .anniu{
+	margin-left: 84px;
+}
+.withdraw .anniu input,.recharge .anniu input{
+	position: absolute;
+	bottom: 50px;
+	right: 158px;
+	color: #636060;
+	width: 119px;
+	height: 40px;
+	border: 1px solid #050505;
+}
+.withdraw .anniu input:nth-child(1),.recharge .anniu input:nth-child(1){
+	margin-right: 200px;
+}
+.withdraw .anniu input:hover,.recharge .anniu input:hover{
+	background-color: #81CE09;
+	color: #FFFFFF;
+}
+
+.withdraw p,.recharge p{
+	margin-top: 84px;
+	text-align: center;
+	font-size: 22px;
+}
+.withdraw span{
+	display: inline-block;
+	margin-top: 46px;
+	margin-left: 36px;
+}
+.withdraw img{
+	margin-left: 36px;
+	margin-top: 10px;
+}
+.withdraw .withdraw_right{
+	margin-right: 166px;
+	float: right;
+	width: 220px;
+}
+.withdraw .withdraw_right input{
+	width: 218px;
+	height: 28px;
+	margin-bottom: 20px;
+	border: 1px solid #000000;
+}
+.withdraw .withdraw_right .withdraw_bj{
+	background-color: #BFBFBF;
+}
+.withdraw .time{
+	margin-top: 80px;
+}
+.withdraw .time p{
+	margin-top: 0;
+	text-align: center;
+	font-size: 18px;
+}
+.change{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -143px;
+	width: 500px;
+	height: 286px;
+	background:rgba(0,0,0,.5);
+}
+.change p{
+	font-size: 36px;
+	margin-top: 94px;
+	margin-left: 116px;
+}
+.change .anniu{
+	margin-left: 84px;
+}
+.change .anniu input{
+	position: absolute;
+	bottom: 50px;
+	right: 90px;
+	color: #636060;
+	width: 119px;
+	height: 40px;
+	background-color: #FFFFFF;
+	border: 1px solid #050505;
+}
+.change .anniu input:nth-child(1){
+	margin-right: 200px;
+}
+.change .anniu input:hover{
+	background-color: #81CE09;
+	color: #FFFFFF;
+}
+.trading_record{
+	padding-bottom: 3px;
+	padding-top: 30px;
+	background-color: #D8DDE6;
+}
+.trading_record p{
+	display: inline-block;
+	margin-top: 1px;
+	margin-left: 1px;
+	width: 106px;
+	height: 36px;
+	text-align: center;
+	background-color: #E3E3E3;
+	color: #000000;
+	font-size: 12px;
+	line-height: 36px;
+}
+.trading_record .nav_trading{
+	height: 40px;
+	background-color: #F5F5F5;
+}
+.trading_record .trading_text{
+	background-color: #FFFFFF;
+	border: 1px solid #A0A0A0;
+}
+.trading_record .title{
+	cursor: pointer;
+	background-color: #FFFFFF;
+	padding-left: 130px;
+	height: 40px;
+	border-bottom: 1px solid #CECDCD;
+}
+.trading_record .title li{
+	font-size: 12px;
+	line-height: 40px;
+	float: left;
+	color: #0089CD;
+}
+.trading_record .title li i{
+	color: #000000;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-style: normal;
+}
+.trading_record .title .li_show{
+	color: #000000;
+}
+
+.trading_record .content{
+	height: 40px;
+	padding-left: 130px;
+	border-bottom: 1px solid #CECDCD;
+}
+.trading_record .content li{
+	font-size: 12px;
+	line-height: 40px;
+	float: left;
+	color: #000000;
+}
+.trading_record .content li:nth-child(1){
+	width: 102px;
+}
+.trading_record .content li:nth-child(2){
+	width: 400px;
+}
+.trading_record .content li:nth-child(3){
+	width: 206px;
+}
+.trading_record .content li:nth-child(4){
+	width: 286px;
+}
+.trading_record .trading_text .title_content{
+	display: none;
+}
+.trading_record .trading_text .show{
+	display: block;
+}
+.show{
+	display: block;
+}

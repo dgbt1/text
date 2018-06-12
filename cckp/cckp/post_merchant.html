@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>曹操快跑-学生账户-兼职发布</title>
+		<meta name="viewport" content="initial-scale=`${window.devicePixelRatio}`">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common_merchant_student.css"/>
+		<link rel="stylesheet" type="text/css" href="css/search-form.css"/>
+		<link rel="stylesheet" type="text/css" href="css/search.css">
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/post_merchant.css"/>
+	</head>
+	<body>
+		<div class="header gWidth">
+			<div class="header_one">
+				<a href=""><img src="img/logo.png"/></a>			
+			</div>
+			<div class="header_toe">
+				<p>商家</p>								
+			</div>
+			<ul >
+				<li><a href="index_merchant_student.html">登录</a></li>
+				<li class="header_t">-</li>
+				<li><a href="register-business.html">注册</a></li>
+				<li class="header_r">|</li>
+				<li><a href="index_team.html">提建议</a></li>
+				<li class="header_r">|</li>
+				<li class="shubiao">更多
+					<ul class="header_two">
+						<li><span class="iconfont">&#xe679;</span><a href="index_team.html">关于我们</a></li>
+						<li><span class="iconfont">&#xe6a9;</span><a href="index_team.html">团队简介</a></li>
+						<li><span class="iconfont">&#xe612;</span><a href="index_team.html">联系我们</a></li>
+					</ul>
+				</li>
+				<li class="header_e"><a href=""><img src="img/jiao.png"/></a></li>
+			</ul>
+		</div>
+		<div class="nav">
+			<ul class="nav_one gWidth">
+				<li><a href="index_merchant.html">首页</a></li>
+				<li><a href="set_up_merchant.html">账户设置</a></li>
+				<li class="nav_one_one"><a href="post_merchant.html" class="nav_one_two">兼职发布</a></li>
+			</ul>
+		<form onsubmit="submitFn(this, event);">
+		<div class="search-wrapper">
+			<div class="input-holder">
+				<input type="text" class="search-input" placeholder="输入关键字,如:密码" />
+				<button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+			</div>
+			<span class="close" onclick="searchToggle(this, event);"></span>
+		</div>
+	</form>	
+		</div>
+		
+		<div class="fabu">
+			<div class="gWidth">
+				<input class="pop-up" type="button" name="" id="" value="发布兼职信息" />
+			</div>
+		</div>
+		
+		
+		<div class="fabu_form">
+			<h1>兼职发布</h1>
+			<form action="" method="post">
+				店铺名称：
+				<input type="text" value=""/><br />
+				店铺地址：
+				<input type="text" value=""/><br />
+				招聘人数：
+				<input type="text" value=""/><br />
+				职位类型：
+				<input type="text" value=""/><br />
+				兼职时长：
+				<input type="text" value=""/><br />
+				薪资薪水：
+				<input type="text" value=""/><br />
+				兼职时间：
+				<div class="jz_time">
+					
+				</div>
+			</form>
+			<div class="fabu_anjiu">
+					<input class="confirm" type="button" name="" id="" value="确定" />
+					<input class="cancel" type="button" name="" id="" value="取消" />
+				</div>
+		</div>
+		
+		<div class="fabu_form">
+			<h1>支付一元</h1>
+			<img src="img/zf_1.gif"/>
+			<img src="img/zf_2.gif"/>
+			<div class="fabu_anjiu">
+					<input class="confirm" type="button" name="" id="" value="确定" />
+					<input class="cancel" type="button" name="" id="" value="取消" />
+				</div>
+		</div>
+		
+		<div class="fabu_form">
+			<h1>支付完成</h1>
+			<div class="cg_class">
+				<p>发布成功</p>
+			</div>
+			<div class="fabu_anjiu">
+					<input onclick="window.open('post_merchant.html')" class="confirm" type="button" name="" id="" value="确定" />
+					<input class="cancel" type="button" name="" id="" value="取消" />
+				</div>
+		</div>
+		<div class="fbjl">
+			<div class="fbjl_kuai gWidth">
+				<p>发布记录</p>
+			</div>
+			<div class="fb gWidth">
+			<div class="fb_zt">
+			<ul class="fb_biaoti gWidth">
+				<li>店铺名称</li>
+				<li>店铺地址</li>
+				<li>招聘人数</li>
+				<li>联系方式</li>
+				<li>职位类型</li>
+				<li>兼职期限</li>
+				<li>薪资薪水</li>
+				<li>兼职时间</li>
+			</ul>
+			</div>
+			<div class="fb_text gWidth">
+				<ul>
+					<li>姐妹小吃</li>
+					<li>河北软件小吃后街</li>
+					<li>5</li>
+					<li>13333333333</li>
+					<li>送餐员</li>
+					<li>1/月</li>
+					<li>500/月</li>
+					<li>一、二、三、四、五、六、日</li>
+					<input class="xiangqing" type="button" name="" id="" value="详情" />
+					<input type="button" name="" id="" value="删除" />
+				</ul>
+				<ul>
+					<li>姐妹小吃</li>
+					<li>河北软件小吃后街</li>
+					<li>5</li>
+					<li>13333333333</li>
+					<li>送餐员</li>
+					<li>1/月</li>
+					<li>500/月</li>
+					<li>一、二、三、四、五、六、日</li>
+					<input class="xiangqing" type="button" name="" id="" value="详情" />
+					<input type="button" name="" id="" value="删除" />
+				</ul>
+				<ul>
+					<li>姐妹小吃</li>
+					<li>河北软件小吃后街</li>
+					<li>5</li>
+					<li>13333333333</li>
+					<li>送餐员</li>
+					<li>1/月</li>
+					<li>500/月</li>
+					<li>一、二、三、四、五、六、日</li>
+					<input class="xiangqing" type="button" name="" id="" value="详情" />
+					<input type="button" name="" id="" value="删除" />
+				</ul>
+				<ul>
+					<li>姐妹小吃</li>
+					<li>河北软件小吃后街</li>
+					<li>5</li>
+					<li>13333333333</li>
+					<li>送餐员</li>	
+					<li>1/月</li>
+					<li>500/月</li>
+					<li>一、二、三、四、五、六、日</li>
+					<input class="xiangqing" type="button" name="" id="" value="详情" />
+					<input type="button" name="" id="" value="删除" />
+				</ul>
+				<div class="details">
+					<h1>姐妹小吃</h1>
+					<p><i>店铺地址：</i>河北软件小吃后街</p>
+					<p><i>招聘人数：</i>5</p>
+					<p><i>联系方式：</i>13333333333</p>
+					<p><i>职位类型：</i>送餐员</p>
+					<p><i>兼职期限：</i>1/月</p>
+					<p><i>薪资薪水：</i>500元/月</p>
+					<p><i>兼职时间：</i>一、二、三、四、五、六、日</p>
+					<input class="finish" type="button" name="" id="" value="完成" />
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="button clearfix">
+	<div class="button_text gwidth">
+	<p>尊重网上道德，遵守《全国人大常委会维护互联网安全的决定》及中华人民共和国其他各项有关法律法规</p>
+	<p>Copyright 2005-2014 echang.cn All rights reserverd.曹操快跑版权所有</p>
+	<p>经营许可编号：*********** 京ICP备：************ BBS经营许可证：*****************</p>
+	<p>电话：*********** 客服QQ：********* 京公网安备：**********</p>
+	</div>
+	</div>
+</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jss_merchant.js"></script>
+	<script src="js/post_merchant.js"></script>
+	
+	
+</html>
