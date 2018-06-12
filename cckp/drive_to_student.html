@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>曹操快跑-学生账户-曹操驾到</title>
+	<meta name="viewport" content="initial-scale=`${window.devicePixelRatio}`">
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/drive_to_student.css">
+	<link rel="stylesheet" type="text/css" href="css/common_merchant_student.css">
+	<link rel="stylesheet" type="text/css" href="css/merchant_index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/search-form.css"/>
+	<link rel="stylesheet" type="text/css" href="css/search.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+</head>
+<body>
+	<div class="header gWidth">
+		<div class="header_one">
+			<a href=""><img src="img/logo.png"/></a>
+		</div>
+		<div class="header_toe">
+			<p>学生</p>
+		</div>
+		<ul >
+			<li><a href="index_merchant_student.html">登录</a></li>
+			<li class="header_t">-</li>
+			<li><a href="register-student.html">注册</a></li>
+			<li class="header_r">|</li>
+			<li><a href="index_team.html">提建议</a></li>
+			<li class="header_r">|</li>
+			<li class="shubiao">更多
+				<ul class="header_two">
+					<li><span class="iconfont">&#xe679;</span><a href="index_team.html">关于我们</a></li>
+					<li><span class="iconfont">&#xe6a9;</span><a href="index_team.html">团队简介</a></li>
+					<li><span class="iconfont">&#xe612;</span><a href="index_team.html">联系我们</a></li>
+				</ul>
+			</li>
+			<li class="header_e"><a href=""><img src="img/jiao.png"/></a></li>
+		</ul>
+	</div>
+		<div class="nav">
+			<ul class="nav_one gWidth">
+				<li><a href="index_student.html" >首页</a></li>
+				<li><a href="set_up_student.html">账户设置</a></li>
+				<li  class="nav_one_one"><a href="drive_to_student.html" class="nav_one_two">曹操驾到</a></li>
+				<li><a href="post_student.html">寻找曹操</a></li>
+				<li><a href="coles_student.html">电子超市</a></li>
+				<li><a href="student_message.html">兼职信息</a></li>
+				<li><a href="ratingscore_student.html">信誉积分</a></li>
+			</ul>
+		<form onsubmit="submitFn(this, event);">
+		<div class="search-wrapper">
+			<div class="input-holder">
+				<input type="text" class="search-input" placeholder="输入关键字,如:密码" />
+				<button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+			</div>
+			<span class="close" onclick="searchToggle(this, event);"></span>
+		</div>
+	</form>
+		</div>
+		<div class="content">
+			<div class="neirong gWidth">
+			<ul class="ul1 clearfix ">
+				<li class="hover">超市代购</li>
+				<li>快递代拿</li>
+			</ul>
+			<div class="wrap">
+			<div class="surface show">
+				<ul class="ul2">
+					<li class="li">代购商品</li>
+					<li>姓名</li>
+					<li>手机号</li>
+					<li>物品大小</li>
+					<li>取货地址</li>
+					<li>送货地址</li>
+					<li>总金额</li>
+					<li>赏金金额</li>
+				</ul>
+				<ul class="ul2">
+					<li>****</li>
+					<li>李四</li>
+					<li>1*********6</li>
+					<li>130/g</li>
+					<li>食堂一楼</li>
+					<li>*公寓*宿舍</li>
+					<li>￥144</li>
+					<li>1元</li>
+					<li><a class="shopping" href="###">抢单</a></li>
+				</ul>
+				<ul class="ul2">
+					<li>****</li>
+					<li>李四</li>
+					<li>1*********6</li>
+					<li>130/g</li>
+					<li>食堂一楼</li>
+					<li>*公寓*宿舍</li>
+					<li>￥88</li>
+					<li>1元</li>
+					<li><a class="shopping" href="###">抢单</a></li>
+				</ul>
+				<ul class="ul2"></ul>
+				<ul class="ul2"></ul>
+			</div>
+
+
+			<div class="surface">
+				<ul class="ul2">
+					<li class="li">取货码</li>
+					<li>姓名</li>
+					<li>手机号</li>
+					<li>物品大小</li>
+					<li>取货地址</li>
+					<li>送货地址</li>
+					<li>赏金金额</li>
+				</ul>
+				<ul class="ul2">
+					<li>****</li>
+					<li>张三</li>
+					<li>1*********6</li>
+					<li>130/g</li>
+					<li>食堂一楼</li>
+					<li>*公寓*宿舍</li>
+					<li>￥199</li>
+					<li><a class="details" href="###">抢单</a></li>
+				</ul>
+				<ul class="ul2">
+					<li>****</li>
+					<li>张三</li>
+					<li>1*********6</li>
+					<li>130/g</li>
+					<li>食堂一楼</li>
+					<li>*公寓*宿舍</li>
+					<li>￥99</li>
+					<li><a class="details" href="###">抢单</a></li>
+				</ul>
+				<ul class="ul2"></ul>
+				<ul class="ul2"></ul>
+
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="reward">
+		<h1>是否接受此次赏金任务</h1>
+		<h5>接受赏金任务点击确定查看任务详情</h5>
+		<h5>不接受赏金任务点击取消将会放弃此次任务</h5>
+		<input class="yes" type="button" name="" id="" value="确定" />
+		<input onclick="window.location.reload('drive_to_student.html')" class="no" type="button" name="" id="" value="取消" />
+	</div>
+	<div class="reward">
+		<h1>快递详情</h1>
+		<p><i>取货码:</i>2431</p>
+		<p><i>姓名:</i>李四</p>
+		<p><i>手机号:</i>166666666666</p>
+		<p><i>物品大小:</i>130g</p>
+		<p><i>取货地址:</i>食堂一楼</p>
+		<p><i>送货地址:</i>9公寓105</p>
+		<p><i>赏金金额:</i>1元</p>
+		<input onclick="window.location.reload('drive_to_student.html')" class="no" type="button" name="" id="" value="完成" />
+	</div>
+	
+	
+	<div class="shop">
+		<h1>是否接受此次代购赏金任务</h1>
+		<h5>接受代购赏金任务点击确定查看任务详情</h5>
+		<h5>不接受代购赏金任务点击取消将会放弃此次任务</h5>
+		<input class="yes" type="button" name="" id="" value="确定" />
+		<input onclick="window.location.reload('drive_to_student.html')" class="no" type="button" name="" id="" value="取消" />
+	</div>
+	
+	<div class="shop">
+		<h1>超市代购详情</h1>
+		<p><i>代购物品:</i>方便面两包、辣条箱包、可乐一罐、火腿肠一个</p>
+		<p><i>姓名:</i>李四</p>
+		<p><i>手机号:</i>166666666666</p>
+		<p><i>物品大小:</i>130g</p>
+		<p><i>取货地址:</i>食堂一楼</p>
+		<p><i>送货地址:</i>9公寓105</p>
+		<p><i>代购金额:</i>20元</p>
+		<p><i>赏金金额:</i>1元</p>
+		<input onclick="window.location.reload('drive_to_student.html')" class="no" type="button" name="" id="" value="完成" />
+	</div>
+	<div class="button clearfix">
+	<div class="button_text gwidth">
+	<p>尊重网上道德，遵守《全国人大常委会维护互联网安全的决定》及中华人民共和国其他各项有关法律法规</p>
+	<p>Copyright 2005-2014 echang.cn All rights reserverd.曹操快跑版权所有</p>
+	<p>经营许可编号：*********** 京ICP备：************ BBS经营许可证：*****************</p>
+	<p>电话：*********** 客服QQ：********* 京公网安备：**********</p>
+	</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jss_merchant.js"></script>
+	<script src="js/drive_to_student.js"></script>
+</body>
+</html>

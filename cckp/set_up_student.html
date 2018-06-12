@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>曹操快跑-学生账户-账户注册</title>
+		<meta name="viewport" content="initial-scale=`${window.devicePixelRatio}`">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common_merchant_student.css"/>		
+		<link rel="stylesheet" type="text/css" href="css/search-form.css"/>
+		<link rel="stylesheet" type="text/css" href="css/search.css">
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/set_up_student.css"/>
+		<link rel="stylesheet" type="text/css" href="font/set_up_student_1.css"/>
+		<link rel="stylesheet" type="text/css" href="font/set_up_student_2.css"/>
+	</head>
+	<body>
+		<div class="header gWidth">
+			<div class="header_one">
+				<a href=""><img src="img/logo.png"/></a>			
+			</div>
+			<div class="header_toe">
+				<p>学生</p>								
+			</div>
+			<ul >
+				<li><a href="index_merchant_student.html">登录</a></li>
+				<li class="header_t">-</li>
+				<li><a href="register-student.html">注册</a></li>
+				<li class="header_r">|</li>
+				<li><a href="index_team.html">提建议</a></li>
+				<li class="header_r">|</li>
+				<li class="shubiao">更多
+					<ul class="header_two">
+						<li><span class="iconfont">&#xe679;</span><a href="index_team.html">关于我们</a></li>
+						<li><span class="iconfont">&#xe6a9;</span><a href="index_team.html">团队简介</a></li>
+						<li><span class="iconfont">&#xe612;</span><a href="index_team.html">联系我们</a></li>
+					</ul>
+				</li>
+				<li class="header_e"><a href=""><img src="img/jiao.png"/></a></li>
+			</ul>
+		</div>
+		<div class="nav">
+			<ul class="nav_one gWidth">
+				<li><a href="index_student.html" >首页</a></li>
+				<li class="nav_one_one"><a class="nav_one_two" href="set_up_student.html">账户设置</a></li>
+				<li><a href="drive_to_student.html">曹操驾到</a></li>
+				<li><a href="post_student.html">寻找曹操</a></li>
+				<li><a href="coles_student.html">电子超市</a></li>
+				<li><a href="student_message.html">兼职信息</a></li>
+				<li><a href="ratingscore_student.html">信誉积分</a></li>
+			</ul>
+		<form onsubmit="submitFn(this, event);">
+		<div class="search-wrapper">
+			<div class="input-holder">
+				<input type="text" class="search-input" placeholder="输入关键字,如:密码" />
+				<button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+			</div>
+			<span class="close" onclick="searchToggle(this, event);"></span>
+		</div>
+	</form>	
+		</div>
+		
+		
+		
+		
+		
+		<div class="setup gWidth clearfix">
+			<div class="setup_one">
+				
+				
+				<div class="setup_top">
+					<p>账户设置</p>
+				</div>
+				
+				
+				<div class="tabs">
+					<ul class="tabs_left">
+						<li><a href="###"><span class="iconfont">&#xe60d;</span>基本信息<span class="dayu">></span></a></li>
+						<li><a href="###"><span class="iconfont">&#xe744;</span>安全设置<span class="dayu">></span></a></li>
+						<li><a href="###"><span class="iconfont">&#xe633;</span>消息提醒<span class="dayu">></span></a></li>
+					</ul>
+					
+					
+					<div class="contents seeee">
+						
+					<div class="content show">
+						<div class="content_one">
+							<ul>
+								<li>真实姓名</li>
+								<li><a href="">张三</a></li>
+								<li>|</li>
+								<li><a href="">123**********</a></li>
+								<li><a href="">已认证</a></li>
+								<li class="ytansss"><a href="">查看</a></li>
+							</ul>
+						</div>
+						<div class="content_one">
+							<ul>
+								<li>邮箱</li>
+								<li><a href="">未添加邮箱账户名</a></li>
+								<li class="woyi ytansss"><a href="">查看</a></li>
+							</ul>
+						</div>
+						<div class="content_one">
+							<ul>
+								<li>手机</li>
+								<li>123****4321</li>
+								<li class="woer ytansss"><a href="">查看</a></li>
+							</ul>
+						</div>
+						<div class="content_one">
+							<ul>
+								<li>账户名称</li>
+								<li><a href="">*****</a></li>
+								<li class="wosan ytansss"><a href="">查看</a></li>
+							</ul>
+						</div>
+						<div class="content_one">
+							<ul>
+								<li>登录密码</li>
+								<li><a href="">登录账户时需要输入的密码</a></li>
+								<li class="wosi ytansss"><a href="">查看</a></li>
+							</ul>
+						</div>
+						<div class="content_one">
+							<ul>
+								<li>支付密码</li>
+								<li>在资金变动时，修改账户信息是输入的密码</li>
+								<li class="wowu ytansss"><a href="">查看</a></li>
+							</ul>
+						</div>
+						<div class="content_one">
+							<ul>
+								<li>注册时间</li>
+								<li><a href="">2099年****</a></li>
+								<li class="woliu ytansss"><a href="">查看</a></li>
+							</ul>
+						</div>
+						<div class="content_one">
+							<ul>
+								<li>实名账户</li>
+								<li><a href="">查看你名下的账户</a></li>
+								<li class="woqi ytansss"><a href="">查看</a></li>
+							</ul>
+						</div>
+						<div class="content_one">
+							<ul>
+								<li>会员保障</li>
+								<li><a href="">账户已收到全面保护</a></li>
+								<li class="woba ytansss"><a href="">查看</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					
+					
+					<div class="content">
+					<div class="contents deewww">
+						<div class="contents_one">
+							<a href=""><img src="img/diannao.png"/></a>
+							<p>上次登录网站时间:2018.06.10 15:32:11</p>
+						</div>
+						
+						<div class="contents_two">
+							<ul>
+								<li>登录密码</li>
+								<li class="iconfont">&#xe77a;</li>
+								<li><a href="">登录账户时输入的密码</a></li>
+								<li class="yansud"><a href="">重置</a></li>
+							</ul>
+						</div>
+						<div class="contents_two">
+							<ul>
+								<li>支付密码</li>
+								<li class="iconfont woei">&#xe77a;</li>
+								<li class="woqw"><a href="">在资金变动时，修改账户信息是输入的密码</a></li>
+								<li class="yansud"><a href="">重置</a></li>
+							</ul>
+						</div>
+						<div class="contents_two">
+							<ul>
+								<li>安全保护问题</li>
+								<li class="eii"> <a href="">您设置了<span>0</span>个安全保护问题</a></li>
+								<li class="yie yansud"><a href="">设置</a></li>
+							</ul>
+						</div>
+						<div class="contents_two">
+							<ul>
+								<li>账户安全风险</li>
+								<li class="werr">保障快捷支付，余额，资金安全</li>
+								<li class="erwww yansud"><a href="">查看</a></li>
+							</ul>
+						</div>
+						<div class="contents_two">
+							<ul>
+								<li>设备锁</li>
+								<li class="swaaa">开启后，账号在同一时间只能在同一浏览器上登录</li>
+								<li class="ewwsd"><a href="">未开启</a></li>
+								<li class="werrq yansud"><a href="">开启</a></li>
+							</ul>
+						</div>
+						
+					</div>
+					</div>
+					
+					
+					<div class="content">
+						<div class="last">
+							<img src="img/huangren.png"/>
+							
+						</div>
+					</div>
+					
+					
+					
+					</div>
+					
+					
+					
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<div class="button clearfix">
+	<div class="button_text gwidth">
+	<p>尊重网上道德，遵守《全国人大常委会维护互联网安全的决定》及中华人民共和国其他各项有关法律法规</p>
+	<p>Copyright 2005-2014 echang.cn All rights reserverd.曹操快跑版权所有</p>
+	<p>经营许可编号：*********** 京ICP备：************ BBS经营许可证：*****************</p>
+	<p>电话：*********** 客服QQ：********* 京公网安备：**********</p>
+	</div>
+	</div>
+		
+		
+			
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jss_merchant.js"></script>
+	<script src="js/set_up_student.js"></script>
+	
+</html>

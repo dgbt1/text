@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>曹操快跑-商家账户-首页</title>
+		<meta name="viewport" content="initial-scale=`${window.devicePixelRatio}`">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common_merchant_student.css"/>
+		<link rel="stylesheet" type="text/css" href="css/merchant_index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/search-form.css"/>
+		<link rel="stylesheet" type="text/css" href="css/search.css">
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+	</head>
+	<body>
+		<div class="header gWidth">
+			<div class="header_one">
+				<a href=""><img src="img/logo.png"/></a>			
+			</div>
+			<div class="header_toe">
+				<p>商家</p>								
+			</div>
+			<ul >
+				<li><a href="index_merchant_student.html">登录</a></li>
+				<li class="header_t">-</li>
+				<li><a href="register-business.html">注册</a></li>
+				<li class="header_r">|</li>
+				<li><a href="index_team.html">提建议</a></li>
+				<li class="header_r">|</li>
+				<li class="shubiao">更多
+					<ul class="header_two">
+						<li><span class="iconfont">&#xe679;</span><a href="index_team.html">关于我们</a></li>
+						<li><span class="iconfont">&#xe6a9;</span><a href="index_team.html">团队简介</a></li>
+						<li><span class="iconfont">&#xe612;</span><a href="index_team.html">联系我们</a></li>
+					</ul>
+				</li>
+				<li class="header_e"><a href=""><img src="img/jiao.png"/></a></li>
+			</ul>
+		</div>
+		<div class="nav">
+			<ul class="nav_one gWidth">
+				<li class="nav_one_one"><a href="index_merchant.html" class="nav_one_two">首页</a></li>
+				<li><a href="set_up_merchant.html">账户设置</a></li>
+				<li><a href="post_merchant.html">兼职发布</a></li>
+				
+			</ul>
+		<form onsubmit="submitFn(this, event);">
+		<div class="search-wrapper">
+			<div class="input-holder">
+				<input type="text" class="search-input" placeholder="输入关键字,如:密码" />
+				<button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+			</div>
+			<span class="close" onclick="searchToggle(this, event);"></span>
+		</div>
+	</form>	
+		</div>
+		<div class="banner">
+			<div class="banner_one gWidth">
+				<a href=""><img src="img/pao.png"/></a>
+			</div>
+			<div class="banner_two gWidth">
+				<p>上午好,<a href="">(先生女士)</a><a href="">点击修改头像</a></p>
+				<p>账户名:<a href="">138*****3451</a></p>	
+			</div>	
+		</div>
+		<div class="title">
+			<div class="title_text">
+				<div class="text_outer">
+					<div class="text_inner">
+						<h6>账户余额</h6>
+						<i>显示余额</i>
+						<br />
+						<p>**.**</p>
+						<input class="pay" type="button" name="" id="" value="充值" />
+						<input class="tixian" type="button" name="" id="" value="提现" />
+					</div>	
+				</div>
+				<div class="text_account clearfix">
+					<p>其他账户</p>
+					<a class="more" href="#">更多>></a>
+				</div>
+				<div class="text_bank clearfix">
+					<span class="iconfont">&#xe618;<i>银行卡: </i></span>
+					<a class="manage_anniu" href="#">管理</a>
+					
+					
+					<div class="manage">
+						<ul>
+							<li>建设银行</li>
+							<li>**** **** **** ****<a href="#">解除绑定</a></li>
+						</ul>
+						<ul>
+							<li>工商银行</li>
+							<li>**** **** **** ****<a href="#">解除绑定</a></li>
+						</ul>
+						<ul>
+							<li class="li1">+<a href="#">增加银行卡</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="recharge">
+			<h1>充&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值</h1>
+			<p>充值金额<input type="text" name="" id="" value="" /></p>
+			<div class="anniu">
+					<input class="confirm" type="button" name="" id="" value="确定" />
+					<input class="cancel" type="button" name="" id="" value="取消" />
+			</div>
+		</div>
+		
+		
+		<div class="recharge">
+			<h1>充值方式</h1>
+			<img src="img/zf_1.gif"/>
+			<img src="img/zf_2.gif"/>
+			<div class="anniu">
+					<input class="confirm" type="button" name="" id="" value="确定" />
+					<input class="cancel" type="button" name="" id="" value="取消" />
+			</div>
+		</div>
+		
+		
+		<div class="recharge">
+			<div class="recharge_class">
+				<p>充值成功</p>
+			</div>
+			<p><span class="time">5</span>秒后自动返回</p>
+			<div class="anniu">
+			<input onclick="window.location.reload('index_merchant.html')" class="confirm" type="button" name="" id="" value="确定" />
+			<input class="cancel" type="button" name="" id="" value="取消" />
+			</div>
+		</div>
+		
+		<div class="withdraw">
+			<h1>提&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现</h1>
+			<p>提现金额<input type="text" name="" id="" value="" /></p>
+			<div class="anniu">
+					<input class="confirm" type="button" name="" id="" value="确定" />
+					<input class="cancel" type="button" name="" id="" value="取消" />
+			</div>
+		</div>
+		
+		<div class="withdraw ">
+			<h1>提现方式</h1>
+			<span>选择银行卡</span><br />
+			<img src="img/withdraw_1.gif"/>
+			<div class="withdraw_right">
+				<input type="button" name="" id="" value="建行银行" />
+				<input type="button" name="" id="" value="工商银行" />
+				<input type="button" name="" id="" value="农业银行" />
+			</div>
+			<div class="anniu">
+					<input class="confirm" type="button" name="" id="" value="确定" />
+					<input class="cancel" type="button" name="" id="" value="取消" />
+			</div>
+		</div>
+		
+		
+		<div class="withdraw">
+			<div class="withdraw_class">
+				<p>提现成功</p>
+			</div>
+			<div class="time">
+			<p>预计到账时间12小时内</p>
+			<p>5秒后自动返回</p>
+			</div>
+			<div class="anniu">
+			<input onclick="window.location.reload('index_merchant.html')" class="confirm" type="button" name="" id="" value="确定" />
+			<input class="cancel" type="button" name="" id="" value="取消" />
+			</div>
+		</div>
+		
+		
+		<div class="change">
+			<p>是否退出该账户</p>
+			<div class="anniu">
+			<input onclick="window.open('index_merchant_student.html')" class="confirm" type="button" name="" id="" value="确定" />
+			<input class="cancel" type="button" name="" id="" value="取消" />
+			</div>
+		</div>
+		
+		<div class="trading_record">
+			<div class="nav_trading gWidth">
+			<p>交易记录</p>
+			</div>
+			<div class="trading_text gWidth">
+			<ul class="title">
+				<li class="li_show">最近交易记录<i>|</i></li>
+				<li>充值记录<i>|</i></li>
+				<li>提现记录<i>|</i></li>
+				<li>退款记录</li>
+			</ul>
+			<div class="title_content show">
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>兼职发布</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>兼职发布</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>兼职发布</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>兼职发布</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>兼职发布</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>兼职发布</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			</div>
+			
+			<div class="title_content">
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>充值</li>
+				<li>+1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>充值</li>
+				<li>+1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>充值</li>
+				<li>+1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>充值</li>
+				<li>+1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>充值</li>
+				<li>+1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>充值</li>
+				<li>+1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			</div>
+			
+			<div class="title_content">
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>提现</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>提现</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>提现</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>提现</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>提现</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>提现</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			</div>
+			
+			<div class="title_content">
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>退款</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>退款</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>退款</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>退款</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>退款</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			<ul class="content">
+				<li>2018-06-01</li>
+				<li>退款</li>
+				<li>-1.00元</li>
+				<li>交易成功</li>
+				<li><a href="">详情</a></li>
+			</ul>
+			</div>
+		</div>
+		</div>
+		
+			<div class="button clearfix">
+	<div class="button_text gwidth">
+	<p>尊重网上道德，遵守《全国人大常委会维护互联网安全的决定》及中华人民共和国其他各项有关法律法规</p>
+	<p>Copyright 2005-2014 echang.cn All rights reserverd.曹操快跑版权所有</p>
+	<p>经营许可编号：*********** 京ICP备：************ BBS经营许可证：*****************</p>
+	<p>电话：*********** 客服QQ：********* 京公网安备：**********</p>
+	</div>
+	</div>
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jss_merchant.js"></script>
+	<script src="js/index_merchant.js"></script>
+	
+	
+</html>

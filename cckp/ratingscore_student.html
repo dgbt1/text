@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>曹操快跑-学生账户-信誉积分</title>
+		<meta name="viewport" content="initial-scale=`${window.devicePixelRatio}`">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common_merchant_student.css"/>
+		<link rel="stylesheet" type="text/css" href="css/merchant_index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/search-form.css"/>
+		<link rel="stylesheet" type="text/css" href="css/search.css">
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/RatingScore.css"/>
+		<link rel="stylesheet" type="text/css" href="font/RatingScore_one.css"/>
+		<link rel="stylesheet" type="text/css" href="font/RatingScore_two.css"/>
+		<link rel="stylesheet" type="text/css" href="font/RatingScore_three.css"/>
+	</head>
+	<body>
+		<div class="header gWidth">
+			<div class="header_one">
+				<a href=""><img src="img/logo.png"/></a>			
+			</div>
+			<div class="header_toe">
+				<p>学生</p>								
+			</div>
+			<ul >
+				<li><a href="index_merchant_student.html">登录</a></li>
+				<li class="header_t">-</li>
+				<li><a href="register-student.html">注册</a></li>
+				<li class="header_r">|</li>
+				<li><a href="index_team.html">提建议</a></li>
+				<li class="header_r">|</li>
+				<li class="shubiao">更多
+					<ul class="header_two">
+						<li><span class="iconfont">&#xe679;</span><a href="index_team.html">关于我们</a></li>
+						<li><span class="iconfont">&#xe6a9;</span><a href="index_team.html">团队简介</a></li>
+						<li><span class="iconfont">&#xe612;</span><a href="index_team.html">联系我们</a></li>
+					</ul>
+				</li>
+				<li class="header_e"><a href=""><img src="img/jiao.png"/></a></li>
+			</ul>
+		</div>
+		<div class="nav">
+			<ul class="nav_one gWidth">
+				<li><a href="index_student.html">首页</a></li>
+				<li><a href="set_up_student.html">账户设置</a></li>
+				<li><a href="drive_to_student.html">曹操驾到</a></li>
+				<li><a href="post_student.html">寻找曹操</a></li>
+				<li><a href="coles_student.html">电子超市</a></li>
+				<li><a href="student_message.html">兼职信息</a></li>
+				<li class="nav_one_one"><a href="ratingscore_student.html" class="nav_one_two">信誉积分</a></li>
+			</ul>
+		<form onsubmit="submitFn(this, event);">
+		<div class="search-wrapper">
+			<div class="input-holder">
+				<input type="text" class="search-input" placeholder="输入关键字,如:密码" />
+				<button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+			</div>
+			<span class="close" onclick="searchToggle(this, event);"></span>
+		</div>
+	</form>	
+		</div>
+		
+		
+		
+		<div class="RatingScore gWidth">
+			<div class="tabs">
+				<div class="tabs_left">
+					<div class="tabs_left_top">
+						<ul>
+							<li class="iconfont">&#xe6d1;</li>
+							<li>信誉分</li>
+							<li>根据个人用户信息得出的信用评分</li>
+						</ul>						
+					</div>
+					<div class="jiaoo">
+						<img src= "img/jiaoooo.png"/>
+					</div>
+				<ul class="tabs_left_bottom">
+					<li><a href="###">信誉分</a></li>
+					<li><a href="###">查信誉分</a></li>
+					<li><a href="###">用信誉分</a></li>
+				</ul>
+				</div>
+				
+				
+				
+				<div class="contents">
+					<div class="content show">
+						<div class="content_top">
+							<p>信誉分</p>
+						</div>
+						<div class="content_bottom">
+							<div class="content_bottom_one">
+								<span class="iconfont">&#xe626;</span>
+								<p>可以在曹操快跑APP或部分合作商户的网页查看</p>
+							</div>
+							<div class="content_bottom_two">
+								::before
+								<p>信誉分是由独立第三方信用评估机构-曹操快跑管理有限公司，在用户授权的情况下，依据用户在互联网上的各类消费及行为数据，结合互联网金融借贷信息，运用云计算及机器学习等技术，通过逻辑回归、决策树、随机森林等模型算法，对各维度数据进行综合处理和评估，在用户信用历史、行为偏好、履约能力、身份特质、人脉关系五个维度客观呈现个人信用状况的综合分值。<br>
+信誉分的分值范围为350至950，分值越高代表信用越好，相应违约率相对较低，较高的信誉分可以帮助用户获得更高效、更优质的服务。</p>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="content">
+							<div class="content_top">
+							<p>信誉分</p>
+						</div>
+						<div class="content_bottom">
+							<div class="content_bottom_one">
+								<span class="iconfont">&#xe66d;</span>
+								<p>根据个人用户信息得出的信用评价</p>
+							</div>
+							<div class="content_bottom_two">
+								::before
+								<p>在支付宝app查看，或者在获得授权后的部分合作商户的网页或app查看。</p>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="content">
+							<div class="content_top">
+							<p>信誉分</p>
+						</div>
+						<div class="content_bottom">
+							<div class="content_bottom_one">
+								<span class="iconfont">&#xe68a;</span>
+								<p>享受更好的信用生活</p>
+							</div>
+							<div class="content_bottom_two">
+								::before
+								<p>目前，芝麻分的应用已经遍布各个行业，比如：出行、住宿、运营商、金融等等，各类生活服务商户以及金融机构在提供服务时会参考用户的芝麻分，从而更快速、更精准的做出决策，更好的为其提供更优质的服务。</p>
+							</div>
+						</div>
+					</div>
+				
+				
+				
+				</div>
+			</div>
+			
+		</div>
+		<div class="button clearfix">
+	<div class="button_text gwidth">
+	<p>尊重网上道德，遵守《全国人大常委会维护互联网安全的决定》及中华人民共和国其他各项有关法律法规</p>
+	<p>Copyright 2005-2014 echang.cn All rights reserverd.曹操快跑版权所有</p>
+	<p>经营许可编号：*********** 京ICP备：************ BBS经营许可证：*****************</p>
+	<p>电话：*********** 客服QQ：********* 京公网安备：**********</p>
+	</div>
+	</div>
+		
+		
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jss_merchant.js"></script>
+	<script src="js/RatingScore.js"></script>
+	
+	
+</html>
